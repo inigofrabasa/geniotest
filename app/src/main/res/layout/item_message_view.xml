@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/ll_list_item"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:background="?attr/selectableItemBackground"
+    android:clickable="true"
+    android:layout_height="100dp"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ci_imageLeft"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center_vertical"
+        android:layout_alignParentLeft="true"
+        android:layout_weight="1"
+        />
+
+    <TextView
+        android:id="@+id/tvTextMessage"
+        android:gravity="center_vertical"
+        android:textSize="30dp"
+        android:layout_marginLeft="20dp"
+        android:text="My Text"
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:textAlignment="center"
+        android:layout_height="match_parent"/>
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ci_imageRight"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="center_vertical"
+        android:layout_alignParentRight="true"
+        android:layout_weight="1"
+        android:layout_marginRight="10dp"
+        />
+
+</LinearLayout>
